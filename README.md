@@ -8,7 +8,13 @@ I am especially interested in roles where product judgment, customer understandi
 
 ## Featured products
 
-### [WatchSignal](https://github.com/czzzry/watchsignal) · [Live product](https://watchsignal-web.vercel.app)
+### [Product Decision Compiler](https://github.com/czzzry/product-decision-compiler) · [Interactive proof](https://czzzry.github.io/product-decision-compiler/)
+
+**A read-only decision layer for AI-assisted software delivery.** It turns an approved product decision into a versioned contract, connects Linear and GitHub evidence to that contract, and brings only meaningful exceptions back for human review.
+
+`product operations` · `human-in-the-loop AI` · `Python` · `Linear + GitHub`
+
+### [WatchSignal](https://github.com/czzzry/watchsignal) · [Live showcase](https://watchsignal-web.vercel.app/showcase)
 
 **Movie-night mediation for two people with different tastes.** WatchSignal keeps each person's preferences separate, finds compromise candidates, and explains why a recommendation should work for both people. It is a phone-first product built with Next.js, FastAPI, and SQLite.
 
@@ -16,15 +22,15 @@ I am especially interested in roles where product judgment, customer understandi
 
 ### [Threadwise](https://github.com/czzzry/threadwise)
 
-**A teachable inbox companion that acts only within visible authority boundaries.** Threadwise classifies email, explains its decisions beside Gmail, accepts corrections in context, and previews broader impact before changing matching messages.
+**A teachable inbox companion that acts only within visible authority boundaries.** Threadwise classifies email, explains its decisions beside Gmail, accepts corrections in context, and previews the broader impact before changing matching messages.
 
-The repository includes a synthetic reviewer demo, evaluation artifacts, bounded provider-write paths, and explicit safety decisions. The public demo does not require private email or provider credentials.
+The repository includes a synthetic product walkthrough, evaluation artifacts, bounded provider-write paths, and explicit safety decisions. The walkthrough does not require private email or provider credentials.
 
 ![Threadwise synthetic product walkthrough](https://raw.githubusercontent.com/czzzry/threadwise/main/docs/assets/threadwise-recruiter-story.gif)
 
 `human-in-the-loop AI` · `browser extension` · `evaluation` · `local-first`
 
-### [Pyrenees Selects](https://github.com/czzzry/ai-video-editor)
+### [Pyrenees Selects](https://github.com/czzzry/pyrenees-selects)
 
 **A local workflow for turning large drone-footage folders into a reviewable first cut.** It scans media, surfaces promising clips, supports rough-cut assembly, and hands the result to DaVinci Resolve while keeping source footage on the user's machine.
 
@@ -50,4 +56,4 @@ The repository includes a synthetic reviewer demo, evaluation artifacts, bounded
 2. Build the smallest complete workflow that can be tested by a real person.
 3. Make consequential actions explicit, inspectable, and reversible where possible.
 4. Keep private source data local and publish synthetic demonstrations.
-5. State what the evidence proves—and what it does not.
+5. State what the evidence proves and what it does not.
