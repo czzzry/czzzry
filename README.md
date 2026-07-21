@@ -22,7 +22,7 @@ A read-only decision layer for AI-assisted delivery.
 It connects approved product intent to Linear and GitHub evidence, then brings only meaningful
 exceptions back for human review.
 
-### [Threadwise](https://github.com/czzzry/threadwise)
+### [Threadwise](https://github.com/czzzry/threadwise) · [Interactive demo](https://czzzry.github.io/threadwise/)
 
 A teachable inbox companion that classifies email, explains its decisions beside Gmail, and
 previews the broader impact of a correction before anything changes provider-side.
